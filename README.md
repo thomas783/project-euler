@@ -36,6 +36,7 @@ src/test/kotlin/euler/p001/
 | 3 | [Largest Prime Factor](src/main/kotlin/euler/p003) | [Problem003.kt](src/main/kotlin/euler/p003/Problem003.kt) |
 | 4 | [Largest Palindrome Product](src/main/kotlin/euler/p004) | [Problem004.kt](src/main/kotlin/euler/p004/Problem004.kt) |
 | 5 | [Smallest Multiple](src/main/kotlin/euler/p005) | [Problem005.kt](src/main/kotlin/euler/p005/Problem005.kt) |
+| 6 | [Sum Square Difference](src/main/kotlin/euler/p006) | [Problem006.kt](src/main/kotlin/euler/p006/Problem006.kt) |
 
 ## License
 
