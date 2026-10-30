@@ -32,6 +32,7 @@ src/test/kotlin/euler/p001/
 | # | Problem | Solution |
 |---|---------|----------|
 | 1 | [Multiples of 3 or 5](src/main/kotlin/euler/p001) | [Problem001.kt](src/main/kotlin/euler/p001/Problem001.kt) |
+| 2 | [Even Fibonacci Numbers](src/main/kotlin/euler/p002) | [Problem002.kt](src/main/kotlin/euler/p002/Problem002.kt) |
 
 ## License
 
