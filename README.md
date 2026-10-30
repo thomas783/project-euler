@@ -13,12 +13,13 @@ src/main/kotlin/euler/p001/
 ├── README.md          # problem statement
 └── Problem001.kt      # solution
 src/test/kotlin/euler/p001/
-└── Problem001Test.kt  # checks the example from the statement and the final answer
+└── Problem001Test.kt  # checks the example from the statement
 ```
 
 ## Run
 
 ```bash
+./gradlew solve -Pproblem=1 --args="1000"          # run a solution with your own input
 ./gradlew test                                     # all problems
 ./gradlew test --tests 'euler.p001.Problem001Test' # one problem
 ```

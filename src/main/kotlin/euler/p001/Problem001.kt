@@ -6,3 +6,11 @@ package euler.p001
 fun problem001(limit: Int): Long {
     TODO("Not solved yet")
 }
+
+/**
+ * Usage: ./gradlew solve -Pproblem=1 --args="1000"
+ */
+fun main(args: Array<String>) {
+    val limit = args.firstOrNull()?.toInt() ?: 1000
+    println(problem001(limit))
+}
