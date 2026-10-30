@@ -34,4 +34,14 @@ class ArgsTest {
     fun rejectsDuplicateKey() {
         assertFailsWith<IllegalArgumentException> { parseArgs(arrayOf("limit=1", "limit=2"), "limit") }
     }
+
+    @Test
+    fun parsesLongValues() {
+        assertEquals(mapOf("number" to 600851475143L), parseLongArgs(arrayOf("number=600851475143"), "number"))
+    }
+
+    @Test
+    fun rejectsIntOverflow() {
+        assertFailsWith<IllegalArgumentException> { parseArgs(arrayOf("limit=600851475143"), "limit") }
+    }
 }
