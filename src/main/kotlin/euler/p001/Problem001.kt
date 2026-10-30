@@ -1,9 +1,15 @@
 package euler.p001
 
+import euler.parseArgs
+
+const val DEFAULT_LIMIT = 1000
+const val DEFAULT_FIRST = 3
+const val DEFAULT_SECOND = 5
+
 /**
  * Returns the sum of all natural numbers below [limit] that are multiples of [first] or [second] (3 or 5 by default).
  */
-fun problem001(limit: Int = 1000, first: Int = 3, second: Int = 5): Long {
+fun problem001(limit: Int = DEFAULT_LIMIT, first: Int = DEFAULT_FIRST, second: Int = DEFAULT_SECOND): Long {
   return (getSumOfMultiplesOf(first, limit) + getSumOfMultiplesOf(second, limit) - getSumOfMultiplesOf(
     lcm(first, second),
     limit
@@ -20,15 +26,15 @@ fun getSumOfMultiplesOf(k: Int, limit: Int): Int {
 }
 
 /**
- * Usage: ./gradlew solve -Pproblem=1 --args="[limit] [first] [second]", e.g. --args="1000 3 5"
+ * Usage: ./gradlew solve -Pproblem=1 --args="limit=1000 first=3 second=5" (every argument is optional)
  */
 fun main(args: Array<String>) {
-  val numbers = args.map { it.toInt() }
-  val result = when (numbers.size) {
-    0 -> problem001()
-    1 -> problem001(numbers[0])
-    2 -> problem001(numbers[0], numbers[1])
-    else -> problem001(numbers[0], numbers[1], numbers[2])
-  }
-  println(result)
+  val options = parseArgs(args, "limit", "first", "second")
+  println(
+    problem001(
+      limit = options["limit"] ?: DEFAULT_LIMIT,
+      first = options["first"] ?: DEFAULT_FIRST,
+      second = options["second"] ?: DEFAULT_SECOND,
+    )
+  )
 }

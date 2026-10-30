@@ -16,10 +16,13 @@ src/test/kotlin/euler/p001/
 └── Problem001Test.kt  # checks the example from the statement
 ```
 
+`src/main/kotlin/euler/Args.kt` parses the `key=value` arguments passed to `solve`.
+
 ## Run
 
 ```bash
-./gradlew solve -Pproblem=1 --args="1000"          # run a solution with your own input
+./gradlew solve -Pproblem=1                        # run a solution with the default input
+./gradlew solve -Pproblem=1 --args="second=7"      # override some of the inputs by name
 ./gradlew test                                     # all problems
 ./gradlew test --tests 'euler.p001.Problem001Test' # one problem
 ```
