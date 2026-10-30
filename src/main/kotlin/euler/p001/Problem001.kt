@@ -3,7 +3,7 @@ package euler.p001
 /**
  * Returns the sum of all natural numbers below [limit] that are multiples of [first] or [second] (3 or 5 by default).
  */
-fun problem001(limit: Int, first: Int = 3, second: Int = 5): Long {
+fun problem001(limit: Int = 1000, first: Int = 3, second: Int = 5): Long {
   return (getSumOfMultiplesOf(first, limit) + getSumOfMultiplesOf(second, limit) - getSumOfMultiplesOf(
     lcm(first, second),
     limit
@@ -20,9 +20,15 @@ fun getSumOfMultiplesOf(k: Int, limit: Int): Int {
 }
 
 /**
- * Usage: ./gradlew solve -Pproblem=1 --args="1000"
+ * Usage: ./gradlew solve -Pproblem=1 --args="[limit] [first] [second]", e.g. --args="1000 3 5"
  */
 fun main(args: Array<String>) {
-  val limit = args.firstOrNull()?.toInt() ?: 1000
-  println(problem001(limit))
+  val numbers = args.map { it.toInt() }
+  val result = when (numbers.size) {
+    0 -> problem001()
+    1 -> problem001(numbers[0])
+    2 -> problem001(numbers[0], numbers[1])
+    else -> problem001(numbers[0], numbers[1], numbers[2])
+  }
+  println(result)
 }
