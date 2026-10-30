@@ -1,4 +1,4 @@
-package euler
+package euler.p001
 
 import kotlin.test.Test
 import kotlin.test.assertEquals
