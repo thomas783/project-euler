@@ -35,6 +35,7 @@ src/test/kotlin/euler/p001/
 | 2 | [Even Fibonacci Numbers](src/main/kotlin/euler/p002) | [Problem002.kt](src/main/kotlin/euler/p002/Problem002.kt) |
 | 3 | [Largest Prime Factor](src/main/kotlin/euler/p003) | [Problem003.kt](src/main/kotlin/euler/p003/Problem003.kt) |
 | 4 | [Largest Palindrome Product](src/main/kotlin/euler/p004) | [Problem004.kt](src/main/kotlin/euler/p004/Problem004.kt) |
+| 5 | [Smallest Multiple](src/main/kotlin/euler/p005) | [Problem005.kt](src/main/kotlin/euler/p005/Problem005.kt) |
 
 ## License
 
