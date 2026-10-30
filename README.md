@@ -33,6 +33,7 @@ src/test/kotlin/euler/p001/
 |---|---------|----------|
 | 1 | [Multiples of 3 or 5](src/main/kotlin/euler/p001) | [Problem001.kt](src/main/kotlin/euler/p001/Problem001.kt) |
 | 2 | [Even Fibonacci Numbers](src/main/kotlin/euler/p002) | [Problem002.kt](src/main/kotlin/euler/p002/Problem002.kt) |
+| 3 | [Largest Prime Factor](src/main/kotlin/euler/p003) | [Problem003.kt](src/main/kotlin/euler/p003/Problem003.kt) |
 
 ## License
 
