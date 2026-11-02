@@ -38,6 +38,7 @@ src/test/kotlin/euler/p001/
 | 5 | [Smallest Multiple](src/main/kotlin/euler/p005) | [Problem005.kt](src/main/kotlin/euler/p005/Problem005.kt) |
 | 6 | [Sum Square Difference](src/main/kotlin/euler/p006) | [Problem006.kt](src/main/kotlin/euler/p006/Problem006.kt) |
 | 7 | [10 001st Prime](src/main/kotlin/euler/p007) | [Problem007.kt](src/main/kotlin/euler/p007/Problem007.kt) |
+| 8 | [Largest Product in a Series](src/main/kotlin/euler/p008) | [Problem008.kt](src/main/kotlin/euler/p008/Problem008.kt) |
 
 ## License
 
