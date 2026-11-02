@@ -46,6 +46,7 @@ src/test/kotlin/euler/p001/
 | 13 | [Large Sum](src/main/kotlin/euler/p013) | [Problem013.kt](src/main/kotlin/euler/p013/Problem013.kt) |
 | 14 | [Longest Collatz Sequence](src/main/kotlin/euler/p014) | [Problem014.kt](src/main/kotlin/euler/p014/Problem014.kt) |
 | 15 | [Lattice Paths](src/main/kotlin/euler/p015) | [Problem015.kt](src/main/kotlin/euler/p015/Problem015.kt) |
+| 16 | [Power Digit Sum](src/main/kotlin/euler/p016) | [Problem016.kt](src/main/kotlin/euler/p016/Problem016.kt) |
 
 ## License
 
