@@ -40,6 +40,7 @@ src/test/kotlin/euler/p001/
 | 7 | [10 001st Prime](src/main/kotlin/euler/p007) | [Problem007.kt](src/main/kotlin/euler/p007/Problem007.kt) |
 | 8 | [Largest Product in a Series](src/main/kotlin/euler/p008) | [Problem008.kt](src/main/kotlin/euler/p008/Problem008.kt) |
 | 9 | [Special Pythagorean Triplet](src/main/kotlin/euler/p009) | [Problem009.kt](src/main/kotlin/euler/p009/Problem009.kt) |
+| 10 | [Summation of Primes](src/main/kotlin/euler/p010) | [Problem010.kt](src/main/kotlin/euler/p010/Problem010.kt) |
 
 ## License
 
