@@ -42,6 +42,7 @@ src/test/kotlin/euler/p001/
 | 9 | [Special Pythagorean Triplet](src/main/kotlin/euler/p009) | [Problem009.kt](src/main/kotlin/euler/p009/Problem009.kt) |
 | 10 | [Summation of Primes](src/main/kotlin/euler/p010) | [Problem010.kt](src/main/kotlin/euler/p010/Problem010.kt) |
 | 11 | [Largest Product in a Grid](src/main/kotlin/euler/p011) | [Problem011.kt](src/main/kotlin/euler/p011/Problem011.kt) |
+| 12 | [Highly Divisible Triangular Number](src/main/kotlin/euler/p012) | [Problem012.kt](src/main/kotlin/euler/p012/Problem012.kt) |
 
 ## License
 
